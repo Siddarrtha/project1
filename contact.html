@@ -1,0 +1,105 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    
+        <img src="./Screenshot 2025-06-23 105753.png" width="100%">
+
+        <fieldset>
+            <legend><b>APPLICATION FIELD</b></legend>
+        <form action="./siddu.html">
+            <label for="first">firstname* </label>
+            <input type="text" id="first"name="firstname" required autofocus title="fill the first name" maxlength="10">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<label for="Father's /Guardian's name">father's/Guardian's name*</label>
+            <input type="text" id="Father's /Guardian's name"name="Father's /Guardian's name" required ><br>
+            <label for="date">date of birth*</label>
+            <input type="date" name="date" >
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<label for="gender"> gender*</label>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender" value="male" >
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female" ><br>
+            <label for="Age as on">Age as on*</label>
+            <input type="years" name="Age as on"  value="" years>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<label for="Aadhar No">Aadhar No* </label>
+            <input type="text" id=""name="Aadhar No" required maxlength="12"><br>
+            <label for="What'sApp No" >What'sApp No*</label>
+            <input type="text" id="What'sApp No"name="What'sApp No" required  maxlength="10">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="email id">email id* </label>
+            <input type="text" id="email id"name="email id" required ><br>
+            <label for="file">photo*</label>
+            <input type="file" id="file">
+        </fieldset>
+        <fieldset>
+            <legend><b>Residential address Details</b></legend>
+            <label for="applicant's address">applicant's address*</label>
+            <textarea name="text" id="applicant's address" maxcharacter="15"></textarea>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="DISTRICT">DISTRICT*</label>
+            <select name="DISTRICT" id="DISTRICT*">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Warangal">Warangal</option>
+                <option value="Karimnagar">Karimnagar</option>
+                <option value="Nalgonda">Nalgonda</option>
+            </select><br>
+            <label for="MANDAL">MANDAL*</label>
+            <select name="MANDAL" id="MANDAL*">
+                <option value="Warangal">Warangal</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Karimnagar">Karimnagar</option>
+                <option value="Nalgonda">Nalgonda</option>
+            </select>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<label for="village">village*</label>
+            <select name="village" id="village*">
+                <option value="karimnager">karimnagar</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Warangal">warangal</option>
+                <option value="Nalgonda">Nalgonda</option>
+            </select>
+            <br>
+            <label for="pincode">pincode* </label>
+            <input type="text" id="pincode"name="pincode" required >
+            </fieldset>
+            <fieldset>
+                <legend><B>PASS TYPE DETAILS</B></legend>
+                <label for="City">city*</label>
+                <select name="city" id="city*">
+                <option value="karimnager">karimnagar</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Warangal">warangal</option>
+                <option value="Nalgonda">Nalgonda</option>
+                </select>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="pass Type">pass Type*</label>
+                <select name="pass Type" id="pass Type">
+                <option value="">--select--</option>
+                <option value="karimnager">karimnagar</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Warangal">warangal</option>
+                <option value="Nalgonda">Nalgonda</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend><b>mode of payment & pass collection</b></legend>
+                <label for="payment mode">payment mode*</label>
+                <select name="payment" id="payment*">
+                <option value="">--select--</option>
+                <option value="UPI">UPI</option>
+                <option value="CREDIT CARD">CREDIT CARD</option>
+                <option value="DEBID CARD">DEBIT CARD</option>
+                </select>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="pass Delivery mode">pass delivery mode*</label>
+                <select name="pass delivery mode" id="pass deivery mode*">
+                <option value="">--select--</option>
+            </fieldset>
+        </form>
+        <br>
+            <center>  
+              <input type="submit" value="login">
+            </center>
+
+    
+</body>
+</html>
